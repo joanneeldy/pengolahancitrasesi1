@@ -4,7 +4,7 @@ import imageio as img
 import matplotlib.pyplot as plt
 
 # Load image
-image = img.imread(r'C:\Users\LENOVO\Downloads\Pengolahan Citra Sesi 1\assets\source.jpg')
+image = img.imread(r'C:\Users\LENOVO\Downloads\Pengolahan Citra Sesi 1\source.jpg')
 
 # Split image into RGB components
 red = image[:,:,0]
